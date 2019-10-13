@@ -1,0 +1,79 @@
+\documentclass[a4paper]{report}
+
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\usepackage{lscape}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{titlesec}
+
+\titleformat{\chapter}[block]
+{\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
+\titlespacing*{\chapter}{0pt}{-19pt}{0pt}
+
+\newcommand{\module}[8]{
+\vspace{2cm}
+%\begin{center}
+\begin{tabular}{l l}
+	Type of Module: & #1 \\
+	Teaching Method: & #2 \\
+	Teaching Language & #3 \\
+	ECTS Points: & #4 \\
+	Workload: & #5
+\end{tabular}
+%\end{center}
+\\ \\
+\section*{Module Content} #6 
+
+\section*{Qualification Goals} #7 
+
+\section*{Prerequisites for Attending}  #8 
+}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		
+		{\scshape\LARGE Eberhard Karls Universität Tübingen \par}
+		\vspace{1cm}
+		{\scshape\Large Module Plan \par}
+		\vspace{1.5cm}
+		{\huge\bfseries Bachelor Bioinformatics \par}
+		\vspace{2cm}
+		{\Large\itshape English Translations From \par the Original Modul Handbook \par}
+		\vfill
+		by \par
+		\textsc{Julian Flesch}
+		
+		\vfill
+		
+		% Bottom of the page
+		{\large \today\par}
+	\end{titlepage}
+	\renewcommand{\abstractname}{Acknowledgements}
+	\begin{abstract}
+		This module handbook describes the modules of the bachelor Bioinformatics at the university of Tübingen.
+	\end{abstract}
+	
+	\tableofcontents
+
+	
+	\input{modules.tex}
+%	\input{appendix.tex}
+	
+%	\bibliographystyle{unsrt}
+%	\bibliography{bibs/sample}
+%	\addcontentsline{toc}{chapter}{Bibliography}
+	
+\end{document}
