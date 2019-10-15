@@ -28,10 +28,8 @@
 \contentsline {chapter}{\numberline {15}Animal Physiology (Neurobiology)}{17}{chapter.15}% 
 \contentsline {paragraph}{Lecture Animal Physiology (Neurobiology):}{17}{chapter.15}% 
 \contentsline {paragraph}{Laboratory Excercise Biomolecules and Cell:}{17}{chapter.15}% 
-\contentsline {chapter}{\numberline {16}Bioinformatics I}{18}{chapter.16}% 
-\contentsline {paragraph}{Lecture Bioinformatics I (Introduction to Bioinformatics): }{18}{chapter.16}% 
+\contentsline {chapter}{\numberline {16}Bioinformatics I: Introduction to Bioinformatics}{18}{chapter.16}% 
 \contentsline {chapter}{\numberline {17}Bioinformatics II: Algorithms}{19}{chapter.17}% 
-\contentsline {paragraph}{Lecture Bioinformatics II (Bioinformatics Algorithms): }{19}{chapter.17}% 
 \contentsline {chapter}{\numberline {18}Bioinformatics II: Seminar Metagenomics}{20}{chapter.18}% 
 \contentsline {chapter}{\numberline {19}Introduction to Internet Technologies}{21}{chapter.19}% 
 \contentsline {chapter}{\numberline {20}Structure-based Drug Design}{22}{chapter.20}% 
@@ -39,7 +37,6 @@
 \contentsline {paragraph}{Lecture Introduction to Immunology}{23}{chapter.21}% 
 \contentsline {paragraph}{Seminar Milestones of Immunology}{23}{chapter.21}% 
 \contentsline {chapter}{\numberline {22}Microarray Bioinformatics}{24}{chapter.22}% 
-\contentsline {paragraph}{Lecture Microarray Bioinformatics:}{24}{chapter.22}% 
 \contentsline {chapter}{\numberline {23}Cross Disciplinary Competences}{25}{chapter.23}% 
-\contentsline {paragraph}{Example Compulsory Elective Selections:}{25}{chapter.23}% 
+\contentsline {paragraph}{Example Compulsory Elective Units:}{25}{chapter.23}% 
 \contentsline {chapter}{\numberline {24}Bachelor Thesis}{26}{chapter.24}% 
